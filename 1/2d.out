@@ -1,0 +1,111 @@
+init-params: initializing eigensolver data
+Computing 2 bands with 1.000000e-07 tolerance.
+Working in 3 dimensions.
+Grid size is 32 x 288 x 288.
+Solving for 2 bands at a time.
+Creating Maxwell data...
+Allocating fields...
+Mesh size is 3.
+Lattice vectors:
+     (1, 0, 0)
+     (0, 9, 0)
+     (0, 0, 9)
+Cell volume = 81
+Reciprocal lattice vectors (/ 2 pi):
+     (1, -0, 0)
+     (-0, 0.111111, -0)
+     (0, -0, 0.111111)
+Geometric objects:
+     block, center = (0,0,0)
+          size (0.76,1.05,0.51)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon = 12
+     block, center = (0,0.23,0)
+          size (0.4864,0.09,0.51)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon = 1
+     block, center = (0,-0.23,0)
+          size (0.4864,0.09,0.51)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon = 1
+     block, center = (0,0,0)
+          size (0.4864,0.09,0.51)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon = 1
+Geometric object tree has depth 2 and 5 object nodes (vs. 4 actual objects)
+Initializing dielectric function...
+2 k-points:
+     (0.4,0,0)
+     (0.5,0,0)
+Solving for band polarization: zeven.
+Initializing fields to random numbers...
+elapsed time for initialization: 2 seconds.
+epsilon: 1-12, mean 1.04621, harm. mean 1.00449, 0.510133% > 1, 0.420055% "fill"
+Outputting 2d-epsilon...
+solve_kpoint (0.4,0,0):
+zevenfreqs:, k index, k1, k2, k3, kmag/2pi, zeven band 1, zeven band 2
+Solving for bands 1 to 2...
+    iteration    1: trace = 6.436019444429328 (195.037% change)
+    iteration    2: trace = 0.4735456245561371 (172.586% change)
+    iteration    3: trace = 0.3408472099101614 (32.5883% change)
+    iteration    4: trace = 0.29610838945806 (14.0477% change)
+    iteration    5: trace = 0.2753804015686559 (7.25403% change)
+    iteration    6: trace = 0.2665189047477053 (3.27053% change)
+    iteration    7: trace = 0.263020001035969 (1.32149% change)
+    iteration    8: trace = 0.2607228218773895 (0.877216% change)
+    iteration    9: trace = 0.2590336586537064 (0.649983% change)
+    iteration   10: trace = 0.2573602508488931 (0.648113% change)
+    iteration   11: trace = 0.2563305701357853 (0.400895% change)
+    iteration   12: trace = 0.2555075467783011 (0.321595% change)
+    iteration   13: trace = 0.2548319669966453 (0.264757% change)
+    iteration   14: trace = 0.2541830603654847 (0.254966% change)
+    iteration   15: trace = 0.2534955428766957 (0.270848% change)
+    iteration   16: trace = 0.2528518516340665 (0.254249% change)
+    iteration   17: trace = 0.2520473760332512 (0.318668% change)
+    iteration   18: trace = 0.2513982975717287 (0.257854% change)
+    iteration   19: trace = 0.2509564577230884 (0.175908% change)
+    iteration   20: trace = 0.2507392174020012 (0.0866024% change)
+    iteration   21: trace = 0.2506474458665475 (0.0366071% change)
+    iteration   22: trace = 0.2505941222890844 (0.0212766% change)
+    iteration   23: trace = 0.2505629440893616 (0.0124425% change)
+    iteration   24: trace = 0.2505413593298749 (0.00861488% change)
+    iteration   25: trace = 0.2505281875367733 (0.00525747% change)
+    iteration   26: trace = 0.2505216458643972 (0.00261119% change)
+    iteration   27: trace = 0.2505178428566981 (0.00151805% change)
+    iteration   28: trace = 0.2505152625239921 (0.00103% change)
+    iteration   29: trace = 0.2505130886808503 (0.000867753% change)
+    iteration   30: trace = 0.2505115683568118 (0.000606886% change)
+    iteration   31: trace = 0.2505107235356744 (0.000337239% change)
+    iteration   32: trace = 0.2505102143454559 (0.000203261% change)
+    iteration   33: trace = 0.2505098915531723 (0.000128854% change)
+    iteration   34: trace = 0.2505096730711081 (8.7215e-05% change)
+    iteration   35: trace = 0.2505095296746687 (5.72419e-05% change)
+    iteration   36: trace = 0.2505094456300654 (3.35495e-05% change)
+    iteration   37: trace = 0.250509391690953 (2.15318e-05% change)
+    iteration   38: trace = 0.2505093558741565 (1.42976e-05% change)
+    iteration   39: trace = 0.2505093371177051 (7.48733e-06% change)
+Finished solving for bands 1 to 2 after 39 iterations.
+zevenfreqs:, 1, 0.4, 0, 0, 0.4, 0.30774, 0.394722
+elapsed time for k point: 3 minutes, 42 seconds.
+solve_kpoint (0.5,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.2830547804575806 (9.78221% change)
+    iteration    2: trace = 0.2684300653822967 (5.30376% change)
+    iteration    3: trace = 0.2648031248199049 (1.36036% change)
+    iteration    4: trace = 0.2636361613415105 (0.441664% change)
+    iteration    5: trace = 0.2634117989959354 (0.0851393% change)
+    iteration    6: trace = 0.2633559077153503 (0.0212205% change)
+    iteration    7: trace = 0.263338648258051 (0.00655388% change)
+    iteration    8: trace = 0.2633358158213013 (0.00107559% change)
+    iteration    9: trace = 0.2633349367936773 (0.000333805% change)
+    iteration   10: trace = 0.2633347228479755 (8.12447e-05% change)
+    iteration   11: trace = 0.2633346794832383 (1.64675e-05% change)
+    iteration   12: trace = 0.2633346581784768 (8.09037e-06% change)
+Finished solving for bands 1 to 2 after 12 iterations.
+zevenfreqs:, 2, 0.5, 0, 0, 0.5, 0.320166, 0.401034
+elapsed time for k point: 1 minute, 14 seconds.
+Band 1 range: 0.30774031785961425 at #(0.4 0.0 0.0) to 0.3201663475548951 at #(0.5 0.0 0.0)
+Band 2 range: 0.3947217170126445 at #(0.4 0.0 0.0) to 0.40103387397050466 at #(0.5 0.0 0.0)
+Gap from band 1 (0.3201663475548951) to band 2 (0.3947217170126445), 20.85791416950024%
+total elapsed time for run: 5 minutes, 1 seconds.
+done.
