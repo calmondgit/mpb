@@ -1,0 +1,529 @@
+init-params: initializing eigensolver data
+Computing 2 bands with 1.000000e-07 tolerance.
+Working in 3 dimensions.
+Grid size is 32 x 288 x 288.
+Solving for 2 bands at a time.
+Creating Maxwell data...
+Allocating fields...
+Mesh size is 3.
+Lattice vectors:
+     (1, 0, 0)
+     (0, 9, 0)
+     (0, 0, 9)
+Cell volume = 81
+Reciprocal lattice vectors (/ 2 pi):
+     (1, -0, 0)
+     (-0, 0.111111, -0)
+     (0, -0, 0.111111)
+Geometric objects:
+     block, center = (0,0,0)
+          size (1,1.261,0.59)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon = 12
+     ellipsoid, center = (0,0,0)
+          size (0.671,0.511,30)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon = 1
+Geometric object tree has depth 3 and 8 object nodes (vs. 2 actual objects)
+Initializing dielectric function...
+18 k-points:
+     (0,0,0)
+     (0.0294118,0,0)
+     (0.0588235,0,0)
+     (0.0882353,0,0)
+     (0.117647,0,0)
+     (0.147059,0,0)
+     (0.176471,0,0)
+     (0.205882,0,0)
+     (0.235294,0,0)
+     (0.264706,0,0)
+     (0.294118,0,0)
+     (0.323529,0,0)
+     (0.352941,0,0)
+     (0.382353,0,0)
+     (0.411765,0,0)
+     (0.441176,0,0)
+     (0.470588,0,0)
+     (0.5,0,0)
+Solving for band polarization: zeven.
+Initializing fields to random numbers...
+elapsed time for initialization: 2 seconds.
+epsilon: 1-12, mean 1.07951, harm. mean 1.00697, 0.764936% > 1, 0.722862% "fill"
+Outputting center-epsilon...
+solve_kpoint (0,0,0):
+zevenfreqs:, k index, k1, k2, k3, kmag/2pi, zeven band 1, zeven band 2
+Solving for bands 2 to 2...
+    iteration    2: trace = 0.0140582559287094 (176.367% change)
+    iteration    4: trace = 0.01117992033846298 (7.14942% change)
+    iteration    6: trace = 0.009233109145903005 (8.99942% change)
+    iteration    8: trace = 0.008681638121032774 (1.10421% change)
+    iteration   10: trace = 0.008649229933890537 (0.0479152% change)
+    iteration   12: trace = 0.008647751084376543 (0.00516171% change)
+    iteration   14: trace = 0.008647478166985509 (0.000892484% change)
+    iteration   16: trace = 0.008647460910680541 (3.47124e-05% change)
+Finished solving for bands 2 to 2 after 17 iterations.
+zevenfreqs:, 1, 0, 0, 0, 0, 0, 0.0929917
+elapsed time for k point: 44 seconds.
+solve_kpoint (0.0294118,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.01042658031063888 (3.16006% change)
+    iteration    2: trace = 0.01033951552110231 (0.838528% change)
+    iteration    3: trace = 0.01033574421074962 (0.0364814% change)
+    iteration    4: trace = 0.01033462652378181 (0.0108144% change)
+    iteration    5: trace = 0.01033436951915647 (0.00248686% change)
+    iteration    6: trace = 0.01033435315915294 (0.000158307% change)
+    iteration    7: trace = 0.01033434967234015 (3.374e-05% change)
+    iteration    8: trace = 0.01033434895672056 (6.92467e-06% change)
+Finished solving for bands 1 to 2 after 8 iterations.
+zevenfreqs:, 2, 0.0294118, 0, 0, 0.0294118, 0.0291189, 0.0973983
+elapsed time for k point: 43 seconds.
+solve_kpoint (0.0588235,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.01546624318739694 (1.72812% change)
+    iteration    2: trace = 0.01539252010731886 (0.47781% change)
+    iteration    3: trace = 0.01538872615434473 (0.0246511% change)
+    iteration    4: trace = 0.01538752557268386 (0.007802% change)
+    iteration    5: trace = 0.01538721556915181 (0.00201466% change)
+    iteration    6: trace = 0.01538719198548591 (0.000153268% change)
+    iteration    7: trace = 0.01538718550797914 (4.20968e-05% change)
+    iteration    8: trace = 0.0153871840207595 (9.66531e-06% change)
+Finished solving for bands 1 to 2 after 8 iterations.
+zevenfreqs:, 3, 0.0588235, 0, 0, 0.0588235, 0.0581909, 0.109549
+elapsed time for k point: 43 seconds.
+solve_kpoint (0.0882353,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.02384112097796387 (0.838074% change)
+    iteration    2: trace = 0.02378266658946393 (0.245484% change)
+    iteration    3: trace = 0.02377856407557995 (0.0172515% change)
+    iteration    4: trace = 0.02377720846970059 (0.00570112% change)
+    iteration    5: trace = 0.02377681415827985 (0.00165837% change)
+    iteration    6: trace = 0.0237767745441114 (0.000166609% change)
+    iteration    7: trace = 0.02377675885800377 (6.59724e-05% change)
+    iteration    8: trace = 0.02377675509642152 (1.58204e-05% change)
+    iteration    9: trace = 0.02377675316661368 (8.11636e-06% change)
+Finished solving for bands 1 to 2 after 9 iterations.
+zevenfreqs:, 4, 0.0882353, 0, 0, 0.0882353, 0.0871391, 0.127215
+elapsed time for k point: 48 seconds.
+solve_kpoint (0.117647,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.03549305934638741 (0.471058% change)
+    iteration    2: trace = 0.03543648576569999 (0.15952% change)
+    iteration    3: trace = 0.03542809405067499 (0.0236838% change)
+    iteration    4: trace = 0.03542477812536853 (0.00936003% change)
+    iteration    5: trace = 0.03542394576891542 (0.00234967% change)
+    iteration    6: trace = 0.03542384512148296 (0.000284123% change)
+    iteration    7: trace = 0.03542379924937478 (0.000129495% change)
+    iteration    8: trace = 0.03542379042308196 (2.49163e-05% change)
+    iteration    9: trace = 0.03542378498225092 (1.53593e-05% change)
+    iteration   10: trace = 0.03542378199558724 (8.43124e-06% change)
+Finished solving for bands 1 to 2 after 10 iterations.
+zevenfreqs:, 5, 0.117647, 0, 0, 0.117647, 0.115777, 0.14839
+elapsed time for k point: 52 seconds.
+solve_kpoint (0.147059,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.05023115553822675 (0.39535% change)
+    iteration    2: trace = 0.05012881431449787 (0.203948% change)
+    iteration    3: trace = 0.0500877244151363 (0.0820022% change)
+    iteration    4: trace = 0.05007060228928066 (0.0341901% change)
+    iteration    5: trace = 0.05006654565144117 (0.00810216% change)
+    iteration    6: trace = 0.05006565969090268 (0.00176958% change)
+    iteration    7: trace = 0.05006528172510568 (0.000754943% change)
+    iteration    8: trace = 0.05006523187832441 (9.95636e-05% change)
+    iteration    9: trace = 0.05006520918033978 (4.53368e-05% change)
+    iteration   10: trace = 0.05006520388878214 (1.05693e-05% change)
+    iteration   11: trace = 0.05006520000414022 (7.75917e-06% change)
+Finished solving for bands 1 to 2 after 11 iterations.
+zevenfreqs:, 6, 0.147059, 0, 0, 0.147059, 0.143463, 0.171707
+elapsed time for k point: 58 seconds.
+solve_kpoint (0.176471,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.06729091472639614 (0.613744% change)
+    iteration    2: trace = 0.06691603381339761 (0.558661% change)
+    iteration    3: trace = 0.06668208250462726 (0.350231% change)
+    iteration    4: trace = 0.06659324151485227 (0.133319% change)
+    iteration    5: trace = 0.06656980172626345 (0.0352046% change)
+    iteration    6: trace = 0.06656206839910503 (0.0116175% change)
+    iteration    7: trace = 0.06655942004543183 (0.00397885% change)
+    iteration    8: trace = 0.06655899906937186 (0.000632484% change)
+    iteration    9: trace = 0.06655880168191686 (0.000296561% change)
+    iteration   10: trace = 0.06655875421500182 (7.13158e-05% change)
+    iteration   11: trace = 0.06655871205977311 (6.33354e-05% change)
+    iteration   12: trace = 0.066558656362614 (8.36813e-05% change)
+    iteration   13: trace = 0.0665534047075787 (0.00789058% change)
+    iteration   14: trace = 0.06654937632448579 (0.00605304% change)
+    iteration   15: trace = 0.06654753427198361 (0.00276799% change)
+    iteration   16: trace = 0.06654615291831568 (0.00207576% change)
+    iteration   17: trace = 0.06654500469280034 (0.00172547% change)
+    iteration   18: trace = 0.06654400063402595 (0.00150885% change)
+    iteration   19: trace = 0.06654309561118878 (0.00136005% change)
+    iteration   20: trace = 0.06654226324083434 (0.00125088% change)
+    iteration   21: trace = 0.0665414866244579 (0.00116711% change)
+    iteration   22: trace = 0.06654075421981158 (0.00110068% change)
+    iteration   23: trace = 0.06654005775681315 (0.00104668% change)
+    iteration   24: trace = 0.06653939108619039 (0.00100191% change)
+    iteration   25: trace = 0.06653874949816115 (0.000964228% change)
+    iteration   26: trace = 0.06653812929730529 (0.000932094% change)
+    iteration   27: trace = 0.06653752752525935 (0.000904406% change)
+    iteration   28: trace = 0.06653694177315267 (0.000880337% change)
+    iteration   29: trace = 0.06653637005105142 (0.000859259% change)
+    iteration   30: trace = 0.06653581069436972 (0.000840682% change)
+    iteration   31: trace = 0.06653526229564243 (0.000824219% change)
+    iteration   32: trace = 0.06653472365332119 (0.000809562% change)
+    iteration   33: trace = 0.06653419373355177 (0.000796459% change)
+    iteration   34: trace = 0.06653367163972063 (0.000784703% change)
+    iteration   35: trace = 0.06653315658992456 (0.000774122% change)
+    iteration   36: trace = 0.06653264789781535 (0.000764572% change)
+    iteration   37: trace = 0.06653214495854304 (0.000755931% change)
+    iteration   38: trace = 0.06653164723660558 (0.000748095% change)
+    iteration   39: trace = 0.06653115425623639 (0.000740974% change)
+    iteration   40: trace = 0.06653066559362154 (0.00073449% change)
+    iteration   41: trace = 0.06653018087011386 (0.000728574% change)
+    iteration   42: trace = 0.06652969974703886 (0.000723168% change)
+    iteration   43: trace = 0.06652922192090591 (0.000718217% change)
+    iteration   44: trace = 0.06652874711970558 (0.000713676% change)
+    iteration   45: trace = 0.0665282750995555 (0.000709501% change)
+    iteration   46: trace = 0.06652780564194066 (0.000705654% change)
+    iteration   47: trace = 0.06652733855126505 (0.000702101% change)
+    iteration   48: trace = 0.06652687365296978 (0.00069881% change)
+    iteration   49: trace = 0.06652641079139905 (0.000695754% change)
+    iteration   50: trace = 0.06652594982856273 (0.000692904% change)
+    iteration   51: trace = 0.0665254906425411 (0.000690238% change)
+    iteration   52: trace = 0.06652503312632203 (0.000687733% change)
+    iteration   53: trace = 0.06652457718673464 (0.000685368% change)
+    iteration   54: trace = 0.06652412274343514 (0.000683123% change)
+    iteration   55: trace = 0.06652366972790794 (0.000680982% change)
+    iteration   56: trace = 0.06652321808283299 (0.000678926% change)
+    iteration   57: trace = 0.06652276776108691 (0.000676941% change)
+    iteration   58: trace = 0.06652231872522808 (0.000675013% change)
+    iteration   59: trace = 0.0665218709466205 (0.000673128% change)
+    iteration   60: trace = 0.06652142440495661 (0.000671273% change)
+    iteration   61: trace = 0.06652097908741951 (0.000669437% change)
+    iteration   62: trace = 0.06652053498821164 (0.00066761% change)
+    iteration   63: trace = 0.06652009210798951 (0.000665782% change)
+    iteration   64: trace = 0.06651965045303607 (0.000663944% change)
+    iteration   65: trace = 0.06651921003492177 (0.000662089% change)
+    iteration   66: trace = 0.06651877086971053 (0.00066021% change)
+    iteration   67: trace = 0.06651833297757156 (0.000658301% change)
+    iteration   68: trace = 0.06651789638203875 (0.000656356% change)
+    iteration   69: trace = 0.06651746110948269 (0.000654371% change)
+    iteration   70: trace = 0.06465418995061389 (2.84097% change)
+    iteration   71: trace = 0.06359382617265041 (1.65361% change)
+    iteration   72: trace = 0.0630724174433713 (0.82328% change)
+    iteration   73: trace = 0.06285447896345746 (0.346135% change)
+    iteration   74: trace = 0.06271906681454012 (0.21567% change)
+    iteration   75: trace = 0.06263921080487031 (0.127404% change)
+    iteration   76: trace = 0.0625788170784926 (0.0964617% change)
+    iteration   77: trace = 0.06254981203184511 (0.0463604% change)
+    iteration   78: trace = 0.06253800013525668 (0.0188858% change)
+    iteration   79: trace = 0.06253317124960434 (0.00772182% change)
+    iteration   80: trace = 0.06253130597207941 (0.00298291% change)
+    iteration   81: trace = 0.06253031851526339 (0.00157915% change)
+    iteration   82: trace = 0.06252986869886233 (0.00071936% change)
+    iteration   83: trace = 0.06252965392748495 (0.000343471% change)
+    iteration   84: trace = 0.06252958792046187 (0.000105561% change)
+    iteration   85: trace = 0.06252957032481954 (2.81397e-05% change)
+    iteration   86: trace = 0.06252956465894703 (9.06111e-06% change)
+Finished solving for bands 1 to 2 after 86 iterations.
+zevenfreqs:, 7, 0.176471, 0, 0, 0.176471, 0.167414, 0.185747
+elapsed time for k point: 7 minutes, 9 seconds.
+solve_kpoint (0.205882,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.07794610239069316 (0.652799% change)
+    iteration    2: trace = 0.07767612464203152 (0.346966% change)
+    iteration    3: trace = 0.07760428054505525 (0.0925347% change)
+    iteration    4: trace = 0.07758637384057486 (0.023077% change)
+    iteration    5: trace = 0.07758047503575971 (0.00760318% change)
+    iteration    6: trace = 0.07757838842043982 (0.00268965% change)
+    iteration    7: trace = 0.07757709072369545 (0.00167277% change)
+    iteration    8: trace = 0.07757685077925711 (0.000309299% change)
+    iteration    9: trace = 0.07757672675182832 (0.000159877% change)
+    iteration   10: trace = 0.07757670613015968 (2.65823e-05% change)
+    iteration   11: trace = 0.0775767002184083 (7.62052e-06% change)
+Finished solving for bands 1 to 2 after 11 iterations.
+zevenfreqs:, 8, 0.205882, 0, 0, 0.205882, 0.183174, 0.209819
+elapsed time for k point: 58 seconds.
+solve_kpoint (0.235294,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.0943162285568203 (0.48168% change)
+    iteration    2: trace = 0.09409908645545384 (0.230493% change)
+    iteration    3: trace = 0.09405523630272582 (0.0466108% change)
+    iteration    4: trace = 0.09404387524177202 (0.0120799% change)
+    iteration    5: trace = 0.09403999740857164 (0.00412351% change)
+    iteration    6: trace = 0.09403859951180867 (0.0014865% change)
+    iteration    7: trace = 0.09403739532878937 (0.00128053% change)
+    iteration    8: trace = 0.09403714317558912 (0.000268142% change)
+    iteration    9: trace = 0.094037006759532 (0.000145066% change)
+    iteration   10: trace = 0.09403698309827906 (2.51616e-05% change)
+    iteration   11: trace = 0.09403697392470406 (9.75528e-06% change)
+Finished solving for bands 1 to 2 after 11 iterations.
+zevenfreqs:, 9, 0.235294, 0, 0, 0.235294, 0.194043, 0.237453
+elapsed time for k point: 58 seconds.
+solve_kpoint (0.264706,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.1122743669671203 (0.375278% change)
+    iteration    2: trace = 0.1120952233121297 (0.159686% change)
+    iteration    3: trace = 0.1120658328993096 (0.0262226% change)
+    iteration    4: trace = 0.1120578921399459 (0.00708605% change)
+    iteration    5: trace = 0.1120547749982541 (0.00278176% change)
+    iteration    6: trace = 0.1120533716296128 (0.0012524% change)
+    iteration    7: trace = 0.1120520005208908 (0.00122363% change)
+    iteration    8: trace = 0.112051724587865 (0.000246255% change)
+    iteration    9: trace = 0.1120515736704919 (0.000134686% change)
+    iteration   10: trace = 0.1120515402228765 (2.98502e-05% change)
+    iteration   11: trace = 0.112051519577685 (1.84247e-05% change)
+    iteration   12: trace = 0.1120515110033722 (7.65212e-06% change)
+Finished solving for bands 1 to 2 after 12 iterations.
+zevenfreqs:, 10, 0.264706, 0, 0, 0.264706, 0.203189, 0.266018
+elapsed time for k point: 1 minute, 3 seconds.
+solve_kpoint (0.294118,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.1318587356113112 (0.313493% change)
+    iteration    2: trace = 0.1316950546349094 (0.124211% change)
+    iteration    3: trace = 0.1316693934310304 (0.0194872% change)
+    iteration    4: trace = 0.1316601425239232 (0.00702611% change)
+    iteration    5: trace = 0.1316549740498146 (0.00392569% change)
+    iteration    6: trace = 0.1316517994327336 (0.00241134% change)
+    iteration    7: trace = 0.1316495646911738 (0.00169748% change)
+    iteration    8: trace = 0.1316491062701807 (0.000348214% change)
+    iteration    9: trace = 0.1316487440201317 (0.000275164% change)
+    iteration   10: trace = 0.1316486127671163 (9.96995e-05% change)
+    iteration   11: trace = 0.1316485284452754 (6.40507e-05% change)
+    iteration   12: trace = 0.1316485035218639 (1.89318e-05% change)
+    iteration   13: trace = 0.1316484946404927 (6.74628e-06% change)
+Finished solving for bands 1 to 2 after 13 iterations.
+zevenfreqs:, 11, 0.294118, 0, 0, 0.294118, 0.211507, 0.29481
+elapsed time for k point: 1 minute, 8 seconds.
+solve_kpoint (0.323529,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.1529600765309038 (0.284548% change)
+    iteration    2: trace = 0.1527765886137027 (0.12003% change)
+    iteration    3: trace = 0.1527330695222586 (0.0284895% change)
+    iteration    4: trace = 0.1526899511352837 (0.0282352% change)
+    iteration    5: trace = 0.1526562842840867 (0.0220516% change)
+    iteration    6: trace = 0.1526357648845153 (0.0134425% change)
+    iteration    7: trace = 0.152627771659078 (0.00523693% change)
+    iteration    8: trace = 0.1526256258140397 (0.00140594% change)
+    iteration    9: trace = 0.1526235016307219 (0.00139177% change)
+    iteration   10: trace = 0.1526225021614235 (0.000654862% change)
+    iteration   11: trace = 0.1526218667162098 (0.000416352% change)
+    iteration   12: trace = 0.1526216326711057 (0.00015335% change)
+    iteration   13: trace = 0.1526215346988356 (6.41929e-05% change)
+    iteration   14: trace = 0.1526214887593925 (3.01002e-05% change)
+    iteration   15: trace = 0.1526214726796644 (1.05357e-05% change)
+    iteration   16: trace = 0.1526214636330974 (5.92745e-06% change)
+Finished solving for bands 1 to 2 after 16 iterations.
+zevenfreqs:, 12, 0.323529, 0, 0, 0.323529, 0.21924, 0.32335
+elapsed time for k point: 1 minute, 22 seconds.
+solve_kpoint (0.352941,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.1747269326993386 (0.341278% change)
+    iteration    2: trace = 0.174184050094191 (0.311187% change)
+    iteration    3: trace = 0.1734443953778384 (0.425543% change)
+    iteration    4: trace = 0.1707861985498691 (1.54443% change)
+    iteration    5: trace = 0.1695057856698591 (0.752538% change)
+    iteration    6: trace = 0.1690409360407414 (0.274615% change)
+    iteration    7: trace = 0.1689081473677645 (0.078585% change)
+    iteration    8: trace = 0.1688543756811839 (0.0318399% change)
+    iteration    9: trace = 0.1688236915350178 (0.0181736% change)
+    iteration   10: trace = 0.168814947643088 (0.00517944% change)
+    iteration   11: trace = 0.1688089317249239 (0.00356368% change)
+    iteration   12: trace = 0.1688029304100148 (0.00355516% change)
+    iteration   13: trace = 0.1687921112205116 (0.00640957% change)
+    iteration   14: trace = 0.168758726914883 (0.0197803% change)
+    iteration   15: trace = 0.1683128636615843 (0.264551% change)
+    iteration   16: trace = 0.1682233532914549 (0.0531951% change)
+    iteration   17: trace = 0.1681409333067493 (0.0490064% change)
+    iteration   18: trace = 0.1680603395773048 (0.0479437% change)
+    iteration   19: trace = 0.1679782198402733 (0.0488752% change)
+    iteration   20: trace = 0.1678923381901917 (0.0511397% change)
+    iteration   21: trace = 0.1678010423007219 (0.0543924% change)
+    iteration   22: trace = 0.1677026702486793 (0.0586414% change)
+    iteration   23: trace = 0.1675944649198979 (0.0645429% change)
+    iteration   24: trace = 0.167470657920937 (0.0739003% change)
+    iteration   25: trace = 0.1673184962763879 (0.0909% change)
+    iteration   26: trace = 0.1671052137305407 (0.127552% change)
+    iteration   27: trace = 0.1667003153985309 (0.242595% change)
+    iteration   28: trace = 0.1641824965156425 (1.52188% change)
+    iteration   29: trace = 0.1641384399247459 (0.0268375% change)
+    iteration   30: trace = 0.1640782066638503 (0.0367034% change)
+    iteration   31: trace = 0.1639826746567159 (0.0582404% change)
+    iteration   32: trace = 0.1637630435929289 (0.134025% change)
+    iteration   33: trace = 0.1622353765593356 (0.937224% change)
+    iteration   34: trace = 0.1620895936288563 (0.0898993% change)
+    iteration   35: trace = 0.1619379406186698 (0.093605% change)
+    iteration   36: trace = 0.1617113962701531 (0.139994% change)
+    iteration   37: trace = 0.1609862473715835 (0.449429% change)
+    iteration   38: trace = 0.1607240206600217 (0.16302% change)
+    iteration   39: trace = 0.1602533351531552 (0.293283% change)
+    iteration   40: trace = 0.1600489083352558 (0.127646% change)
+    iteration   41: trace = 0.1598080889772417 (0.150579% change)
+    iteration   42: trace = 0.1596152410203788 (0.120748% change)
+    iteration   43: trace = 0.1595063847645392 (0.0682224% change)
+    iteration   44: trace = 0.1594180377407292 (0.0554031% change)
+    iteration   45: trace = 0.1593577056987555 (0.0378523% change)
+    iteration   46: trace = 0.1593312678848067 (0.0165916% change)
+    iteration   47: trace = 0.1593175986805779 (0.00857948% change)
+    iteration   48: trace = 0.1593104009982455 (0.00451792% change)
+    iteration   49: trace = 0.1593067140457097 (0.00231435% change)
+    iteration   50: trace = 0.1593052129597176 (0.000942266% change)
+    iteration   51: trace = 0.1593046151118879 (0.000375285% change)
+    iteration   52: trace = 0.1593042474349708 (0.000230801% change)
+    iteration   53: trace = 0.1593040586561948 (0.000118502% change)
+    iteration   54: trace = 0.1593039795287644 (4.96707e-05% change)
+    iteration   55: trace = 0.1593039221971242 (3.59888e-05% change)
+    iteration   56: trace = 0.1593038809766131 (2.58754e-05% change)
+    iteration   57: trace = 0.1593038592055052 (1.36664e-05% change)
+    iteration   58: trace = 0.1593038465102261 (7.96922e-06% change)
+Finished solving for bands 1 to 2 after 58 iterations.
+zevenfreqs:, 13, 0.352941, 0, 0, 0.352941, 0.226397, 0.328707
+elapsed time for k point: 4 minutes, 50 seconds.
+solve_kpoint (0.382353,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.169100564979592 (0.658749% change)
+    iteration    2: trace = 0.168116922390711 (0.583388% change)
+    iteration    3: trace = 0.1678389387128959 (0.165488% change)
+    iteration    4: trace = 0.1677096859562731 (0.0770397% change)
+    iteration    5: trace = 0.1676840266393038 (0.015301% change)
+    iteration    6: trace = 0.1676751708244691 (0.00528139% change)
+    iteration    7: trace = 0.1676728568599161 (0.00138004% change)
+    iteration    8: trace = 0.1676721933320669 (0.000395728% change)
+    iteration    9: trace = 0.1676720101513682 (0.000109249% change)
+    iteration   10: trace = 0.1676719352746328 (4.46567e-05% change)
+    iteration   11: trace = 0.1676719205557453 (8.77839e-06% change)
+Finished solving for bands 1 to 2 after 11 iterations.
+zevenfreqs:, 14, 0.382353, 0, 0, 0.382353, 0.232862, 0.336819
+elapsed time for k point: 58 seconds.
+solve_kpoint (0.411765,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.1743541143065758 (0.547415% change)
+    iteration    2: trace = 0.1737089566711748 (0.370713% change)
+    iteration    3: trace = 0.1735634059797992 (0.0838251% change)
+    iteration    4: trace = 0.1734997957474766 (0.0366563% change)
+    iteration    5: trace = 0.1734842898222254 (0.00893754% change)
+    iteration    6: trace = 0.1734787117734918 (0.00321536% change)
+    iteration    7: trace = 0.1734767302046798 (0.00114226% change)
+    iteration    8: trace = 0.1734761804744657 (0.00031689% change)
+    iteration    9: trace = 0.1734760286908559 (8.74954e-05% change)
+    iteration   10: trace = 0.1734759639344566 (3.73287e-05% change)
+    iteration   11: trace = 0.1734759491339026 (8.53176e-06% change)
+Finished solving for bands 1 to 2 after 11 iterations.
+zevenfreqs:, 15, 0.411765, 0, 0, 0.411765, 0.238421, 0.341514
+elapsed time for k point: 58 seconds.
+solve_kpoint (0.441176,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.1781339527520594 (0.477552% change)
+    iteration    2: trace = 0.1776394320484544 (0.277998% change)
+    iteration    3: trace = 0.1775399816073319 (0.0560001% change)
+    iteration    4: trace = 0.1774927106909431 (0.026629% change)
+    iteration    5: trace = 0.1774793807850042 (0.0075104% change)
+    iteration    6: trace = 0.1774736649327158 (0.00322062% change)
+    iteration    7: trace = 0.1774713697339028 (0.00129327% change)
+    iteration    8: trace = 0.177470846491295 (0.000294833% change)
+    iteration    9: trace = 0.1774706613840439 (0.000104303% change)
+    iteration   10: trace = 0.1774705436653163 (6.63314e-05% change)
+    iteration   11: trace = 0.1774701457307276 (0.000224226% change)
+    iteration   12: trace = 0.1766791024170741 (0.446729% change)
+    iteration   13: trace = 0.1766779847576825 (0.000632595% change)
+    iteration   14: trace = 0.1766768592094127 (0.000637064% change)
+    iteration   15: trace = 0.1766757267014301 (0.000641007% change)
+    iteration   16: trace = 0.1766745880039478 (0.000644515% change)
+    iteration   17: trace = 0.1766734437427969 (0.000647668% change)
+    iteration   18: trace = 0.1766722944140957 (0.000650541% change)
+    iteration   19: trace = 0.1766711403994052 (0.000653197% change)
+    iteration   20: trace = 0.1766699819798875 (0.000655695% change)
+    iteration   21: trace = 0.1766688193497383 (0.000658082% change)
+    iteration   22: trace = 0.1766676526285006 (0.000660402% change)
+    iteration   23: trace = 0.176666481872016 (0.000662691% change)
+    iteration   24: trace = 0.1766653070830418 (0.000664978% change)
+    iteration   25: trace = 0.1766641282194829 (0.000667289% change)
+    iteration   26: trace = 0.1766629452026717 (0.000669644% change)
+    iteration   27: trace = 0.1766617579245384 (0.000672061% change)
+    iteration   28: trace = 0.1766605662533355 (0.000674552% change)
+    iteration   29: trace = 0.176659370039407 (0.000677128% change)
+    iteration   30: trace = 0.1766581691197811 (0.000679796% change)
+    iteration   31: trace = 0.1766569633222584 (0.000682562% change)
+    iteration   32: trace = 0.1766557524700216 (0.000685428% change)
+    iteration   33: trace = 0.1766545363841894 (0.000688395% change)
+    iteration   34: trace = 0.1766533148872224 (0.000691463% change)
+    iteration   35: trace = 0.176652087805644 (0.000694629% change)
+    iteration   36: trace = 0.176650854972541 (0.00069789% change)
+    iteration   37: trace = 0.1766496162302147 (0.00070124% change)
+    iteration   38: trace = 0.1766483714318584 (0.000704673% change)
+    iteration   39: trace = 0.176647120443979 (0.000708182% change)
+    iteration   40: trace = 0.1766458631482917 (0.000711758% change)
+    iteration   41: trace = 0.176644599443231 (0.000715392% change)
+    iteration   42: trace = 0.1766433292461896 (0.000719072% change)
+    iteration   43: trace = 0.1766420524943822 (0.000722788% change)
+    iteration   44: trace = 0.1766407691471641 (0.000726527% change)
+    iteration   45: trace = 0.1766394791867864 (0.000730276% change)
+    iteration   46: trace = 0.1766381826199863 (0.000734021% change)
+    iteration   47: trace = 0.1766368794789272 (0.000737749% change)
+    iteration   48: trace = 0.1766355698225015 (0.000741443% change)
+    iteration   49: trace = 0.1766342537365887 (0.000745088% change)
+    iteration   50: trace = 0.1766329313353313 (0.000748669% change)
+    iteration   51: trace = 0.1766316027611081 (0.00075217% change)
+    iteration   52: trace = 0.1766302681847557 (0.000755573% change)
+    iteration   53: trace = 0.1766289278055004 (0.000758864% change)
+    iteration   54: trace = 0.1766275818507228 (0.000762027% change)
+    iteration   55: trace = 0.1766262305750391 (0.000765045% change)
+    iteration   56: trace = 0.176624874259435 (0.000767905% change)
+    iteration   57: trace = 0.1766235132099527 (0.000770591% change)
+    iteration   58: trace = 0.1766221477557603 (0.00077309% change)
+    iteration   59: trace = 0.1766207782475714 (0.000775392% change)
+    iteration   60: trace = 0.1766194050548776 (0.000777484% change)
+    iteration   61: trace = 0.1766180285635316 (0.000779358% change)
+    iteration   62: trace = 0.1766166491726283 (0.000781005% change)
+    iteration   63: trace = 0.176615267291378 (0.000782422% change)
+    iteration   64: trace = 0.1766138833358258 (0.000783602% change)
+    iteration   65: trace = 0.1766124977246452 (0.000784546% change)
+    iteration   66: trace = 0.1766111108759053 (0.000785253% change)
+    iteration   67: trace = 0.176609723203296 (0.000785725% change)
+    iteration   68: trace = 0.1766083351115729 (0.000785969% change)
+    iteration   69: trace = 0.1766069469934632 (0.00078599% change)
+    iteration   70: trace = 0.1718811538280794 (2.71217% change)
+    iteration   71: trace = 0.1708494995625541 (0.60202% change)
+    iteration   72: trace = 0.1706366593954823 (0.124655% change)
+    iteration   73: trace = 0.1704809377310932 (0.0913009% change)
+    iteration   74: trace = 0.1703137269019071 (0.09813% change)
+    iteration   75: trace = 0.1701197067460416 (0.113984% change)
+    iteration   76: trace = 0.1700019441983261 (0.0692473% change)
+    iteration   77: trace = 0.1699467828694127 (0.0324527% change)
+    iteration   78: trace = 0.1699227359845169 (0.0141507% change)
+    iteration   79: trace = 0.1699139196947408 (0.00518855% change)
+    iteration   80: trace = 0.1699116858005116 (0.00131473% change)
+    iteration   81: trace = 0.1699108288535601 (0.00050435% change)
+    iteration   82: trace = 0.1699105781657002 (0.000147541% change)
+    iteration   83: trace = 0.169910519775745 (3.43651e-05% change)
+    iteration   84: trace = 0.1699105092009744 (6.22373e-06% change)
+Finished solving for bands 1 to 2 after 84 iterations.
+zevenfreqs:, 16, 0.441176, 0, 0, 0.441176, 0.242776, 0.333122
+elapsed time for k point: 6 minutes, 58 seconds.
+solve_kpoint (0.470588,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.1699035331271366 (0.285057% change)
+    iteration    2: trace = 0.169740639640391 (0.0959201% change)
+    iteration    3: trace = 0.169725138832034 (0.00913247% change)
+    iteration    4: trace = 0.1697211828315794 (0.00233085% change)
+    iteration    5: trace = 0.1697204251368979 (0.000446436% change)
+    iteration    6: trace = 0.1697203432513407 (4.82473e-05% change)
+    iteration    7: trace = 0.1697203104779879 (1.93102e-05% change)
+    iteration    8: trace = 0.1697203059682489 (2.65716e-06% change)
+Finished solving for bands 1 to 2 after 8 iterations.
+zevenfreqs:, 17, 0.470588, 0, 0, 0.470588, 0.245587, 0.330767
+elapsed time for k point: 43 seconds.
+solve_kpoint (0.5,0,0):
+Solving for bands 1 to 2...
+    iteration    1: trace = 0.1698227065493124 (0.277615% change)
+    iteration    2: trace = 0.1696688553706437 (0.0906362% change)
+    iteration    3: trace = 0.1696555076417673 (0.00786724% change)
+    iteration    4: trace = 0.1696527114945436 (0.00164815% change)
+    iteration    5: trace = 0.1696521759549274 (0.000315669% change)
+    iteration    6: trace = 0.169652136533725 (2.32365e-05% change)
+    iteration    7: trace = 0.1696521226839849 (8.16361e-06% change)
+Finished solving for bands 1 to 2 after 7 iterations.
+zevenfreqs:, 18, 0.5, 0, 0, 0.5, 0.246563, 0.329937
+elapsed time for k point: 38 seconds.
+Band 1 range: 0.0 at #(0.0 0.0 0.0) to 0.24656327603818817 at #(0.5 0.0 0.0)
+Band 2 range: 0.0929917212222396 at #(0.0 0.0 0.0) to 0.3415135879121247 at #(0.4117647058823529 0.0 0.0)
+total elapsed time for run: 32 minutes, 35 seconds.
+done.
