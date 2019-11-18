@@ -9,7 +9,7 @@
 (define gap2 0)
 
 
-(define (first-te-gap z hx hy)
+(define (first-te-gap (z hx hy))
 (set! geometry-lattice (make lattice (size 1 9 9) ))
 (set! geometry (list (make block (center 0 0 0) 
                                   (size 1 (* z 2.27) z)
