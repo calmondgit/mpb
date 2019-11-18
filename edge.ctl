@@ -14,7 +14,7 @@
                      (vector3 0.5 0 0)        ; M
                      ))        ; Gamma
 
-(set! k-points (interpolate 4 k-points))
+(set! k-points (interpolate 32 k-points))
 (set! resolution 32)
 (run-te)
 (retrieve-gap 1)
