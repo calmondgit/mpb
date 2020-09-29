@@ -1,11 +1,10 @@
 (define bandg2 1550)
 
-
 (define-param z 0.28)
 (define-param hy 0.653)
 (define-param hx 0.28)
 
-﻿(define w (* z 2.27))
+
 (define gap1 0)
 (define gap2 0)
 
@@ -13,7 +12,7 @@
 (define (first-te-gap z hx hy)
 (set! geometry-lattice (make lattice (size 1 9 9) ))
 (set! geometry (list (make block (center 0 0 0) 
-                                  (size 1 w z)
+                                  (size 1 (* z 2.27) z)
                                   (material (make dielectric (epsilon 12)))) ))
 (set! geometry (append geometry 
                       (list   (make ellipsoid (center 0 0 0) (material air)
@@ -34,6 +33,6 @@
 
 (set! num-bands 2)
 (set! mesh-size 7) ; increase from default value of 3
-(define result (minimize first-te-gap 0.1 0.59 0.671 0.511))
+(define result (minimize-multiple first-te-gap 10 0.66 0.5917 0.6291))
 (print "z hx hy at minimum: " (max-arg result) "\n")
 (print "value of minimum: " (max-val result) "\n")

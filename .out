@@ -1,0 +1,171 @@
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 20b9280>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 2182140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 2182140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 1c834a0>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 1d50140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 1d50140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 1434340>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 147a140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 147a140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 1ea9280>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 1f72140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 1f72140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 1632280>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 16fb140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 16fb140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 132e2a0>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 1427140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 1427140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 1c70240>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 1d39140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 1d39140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 1042700>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 102e140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 102e140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 2ab6240>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 2b7f140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 2b7f140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 2a127e0>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 2adf140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 2adf140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 24c77e0>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 2594140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 2594140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 284a640>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 287f140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 287f140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure e427e0>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) f0f140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) f0f140>) ".ctl") "" #))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure f15240>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) fde140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) fde140>) ".ctl") "" #))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 2731060>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 281c140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 281c140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+Backtrace:
+           3 (apply-smob/1 #<catch-closure 1b20560>)
+In ice-9/eval.scm:
+    619:8  2 (_ #(#(#<directory (guile-user) 1bfd140>) ".ctl"))
+    619:8  1 (_ #(#(#(#<directory (guile-user) 1bfd140>) ".ctl") "" ?))
+In unknown file:
+           0 (primitive-load ".ctl")
+
+ERROR: In procedure primitive-load:
+In procedure open-file: No such file or directory: ".ctl"
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[4607,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------

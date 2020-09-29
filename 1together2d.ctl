@@ -1,0 +1,31 @@
+(set! num-bands 2)
+(define gap1 0)
+(define gap2 0)
+(define z 0.3041)
+(define a1 340.7)
+(define hx1 242.8)
+(define hy1 181.3)
+(define a2 382.7)
+(define hx2 51.8)
+(define hy2 374.6)
+(define a (+ a1 a2))
+(set! geometry-lattice (make lattice (size 1 9 no-size) ))
+(set! geometry (list (make block (center 0 0 0) 
+                                  (size 1 (* z 2.27) z)
+                                  (material (make dielectric (epsilon 12)))) ))
+(set! geometry (append geometry 
+                      (list   (make ellipsoid (center 0 0 0) (material air)
+		      (size (/ hx2 a) (/ hy2 a) 30))
+				(make ellipsoid (center 0.5 0 0) (material air)
+		      (size (/ hx1 a) (/ hy1 a) 30))
+				(make ellipsoid (center 0.5 0 0) (material air)
+		      (size (/ hx1 a) (/ hy1 a) 30))
+)))
+(set! k-points (list (vector3 0 0 0)          ; Gamma
+                     (vector3 0.5 0 0)        ; M
+                     ))        ; Gamma
+
+;(set! k-points (interpolate 32 k-points))
+(set! resolution 32)
+(run-te)
+(print "gap: " (retrieve-gap 1) "\n")
