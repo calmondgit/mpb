@@ -1,0 +1,243 @@
+init-params: initializing eigensolver data
+Computing 2 bands with 1.000000e-07 tolerance.
+Working in 3 dimensions.
+Grid size is 32 x 288 x 288.
+Solving for 2 bands at a time.
+Creating Maxwell data...
+Mesh size is 7.
+Lattice vectors:
+     (1, 0, 0)
+     (0, 9, 0)
+     (0, 0, 9)
+Cell volume = 81
+Reciprocal lattice vectors (/ 2 pi):
+     (1, -0, 0)
+     (-0, 0.111111, -0)
+     (0, -0, 0.111111)
+Geometric objects:
+     block, center = (0,0,0)
+          size (1,1.261,0.59)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 12, mu = 1
+     ellipsoid, center = (0,0,0)
+          size (0.671,0.511,30)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 1, mu = 1
+Geometric object tree has depth 3 and 8 object nodes (vs. 2 actual objects)
+Initializing epsilon function...
+Allocating fields...
+2 k-points:
+     (0.4,0,0)
+     (0.5,0,0)
+Solving for band polarization: zeven.
+Initializing fields to random numbers...
+elapsed time for initialization: 0 seconds.
+epsilon: 1-12, mean 1.07952, harm. mean 1.00697, 0.764936% > 1, 0.722945% "fill"
+Outputting c-e470-epsilon...
+solve_kpoint (0.4,0,0):
+zevenfreqs:, k index, k1, k2, k3, kmag/2pi, zeven band 1, zeven band 2
+Solving for bands 1 to 2...
+    iteration    6: trace = 0.1742482055563645 (4.34768% change)
+    iteration   13: trace = 0.1703051610551001 (0.00317594% change)
+    iteration   20: trace = 0.1702223855488538 (0.00377148% change)
+Finished solving for bands 1 to 2 after 25 iterations.
+zevenfreqs:, 1, 0.4, 0, 0, 0.4, 0.236317, 0.338192
+elapsed time for k point: 17 seconds.
+solve_kpoint (0.5,0,0):
+Solving for bands 1 to 2...
+    iteration    6: trace = 0.1696294297128426 (0.000469293% change)
+Finished solving for bands 1 to 2 after 10 iterations.
+zevenfreqs:, 2, 0.5, 0, 0, 0.5, 0.246559, 0.329906
+elapsed time for k point: 7 seconds.
+Band 1 range: 0.23631716732589314 at #(0.4 0.0 0.0) to 0.24655885199234698 at #(0.5 0.0 0.0)
+Band 2 range: 0.32990565674816313 at #(0.5 0.0 0.0) to 0.3381919865746228 at #(0.4 0.0 0.0)
+Gap from band 1 (0.24655885199234698) to band 2 (0.32990565674816313), 28.9165433403408%
+total elapsed time for run: 29 seconds.
+done.
+gap: 28.9165433403408
+gap-1: 1512.3421970823315
+gap-2: 1130.2666332176482
+
+
+init-params: initializing eigensolver data
+Computing 2 bands with 1.000000e-07 tolerance.
+Working in 3 dimensions.
+Grid size is 32 x 288 x 288.
+Solving for 2 bands at a time.
+Creating Maxwell data...
+Mesh size is 7.
+Lattice vectors:
+     (1, 0, 0)
+     (0, 9, 0)
+     (0, 0, 9)
+Cell volume = 81
+Reciprocal lattice vectors (/ 2 pi):
+     (1, -0, 0)
+     (-0, 0.111111, -0)
+     (0, -0, 0.111111)
+Geometric objects:
+     block, center = (0,0,0)
+          size (1,1.19897,0.560967)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 12, mu = 1
+     ellipsoid, center = (0,0,0)
+          size (0.644567,0.550367,30)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 1, mu = 1
+Geometric object tree has depth 3 and 8 object nodes (vs. 2 actual objects)
+Initializing epsilon function...
+2 k-points:
+     (0.4,0,0)
+     (0.5,0,0)
+Solving for band polarization: zeven.
+Initializing fields to random numbers...
+elapsed time for initialization: 0 seconds.
+epsilon: 1-12, mean 1.07011, harm. mean 1.00642, 0.715957% > 1, 0.637375% "fill"
+Outputting c-e470-epsilon...
+solve_kpoint (0.4,0,0):
+zevenfreqs:, k index, k1, k2, k3, kmag/2pi, zeven band 1, zeven band 2
+Solving for bands 1 to 2...
+    iteration    6: trace = 0.1866359631045225 (4.80428% change)
+    iteration   13: trace = 0.1813818603126224 (0.0213744% change)
+    iteration   20: trace = 0.1811918793970695 (0.000765546% change)
+Finished solving for bands 1 to 2 after 24 iterations.
+zevenfreqs:, 1, 0.4, 0, 0, 0.4, 0.242607, 0.349761
+elapsed time for k point: 16 seconds.
+solve_kpoint (0.5,0,0):
+Solving for bands 1 to 2...
+    iteration    6: trace = 0.1804940657426616 (0.000627215% change)
+Finished solving for bands 1 to 2 after 9 iterations.
+zevenfreqs:, 2, 0.5, 0, 0, 0.5, 0.252476, 0.341686
+elapsed time for k point: 6 seconds.
+Band 1 range: 0.24260737203368463 at #(0.4 0.0 0.0) to 0.25247619392029563 at #(0.5 0.0 0.0)
+Band 2 range: 0.34168614431574656 at #(0.5 0.0 0.0) to 0.34976124515766494 at #(0.4 0.0 0.0)
+Gap from band 1 (0.25247619392029563) to band 2 (0.34168614431574656), 30.028813559707856%
+total elapsed time for run: 27 seconds.
+done.
+gap: 30.028813559707856
+gap-1: 1553.3352238145942
+gap-2: 1147.7789536254418
+
+
+init-params: initializing eigensolver data
+Computing 2 bands with 1.000000e-07 tolerance.
+Working in 3 dimensions.
+Grid size is 32 x 288 x 288.
+Solving for 2 bands at a time.
+Creating Maxwell data...
+Mesh size is 7.
+Lattice vectors:
+     (1, 0, 0)
+     (0, 9, 0)
+     (0, 0, 9)
+Cell volume = 81
+Reciprocal lattice vectors (/ 2 pi):
+     (1, -0, 0)
+     (-0, 0.111111, -0)
+     (0, -0, 0.111111)
+Geometric objects:
+     block, center = (0,0,0)
+          size (1,1.13695,0.531933)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 12, mu = 1
+     ellipsoid, center = (0,0,0)
+          size (0.618133,0.589733,30)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 1, mu = 1
+Geometric object tree has depth 3 and 8 object nodes (vs. 2 actual objects)
+Initializing epsilon function...
+2 k-points:
+     (0.4,0,0)
+     (0.5,0,0)
+Solving for band polarization: zeven.
+Initializing fields to random numbers...
+elapsed time for initialization: 1 seconds.
+epsilon: 1-12, mean 1.06145, harm. mean 1.00545, 0.658539% > 1, 0.558633% "fill"
+Outputting c-e470-epsilon...
+solve_kpoint (0.4,0,0):
+zevenfreqs:, k index, k1, k2, k3, kmag/2pi, zeven band 1, zeven band 2
+Solving for bands 1 to 2...
+    iteration    6: trace = 0.2041845275969975 (5.16251% change)
+    iteration   13: trace = 0.1927571329259621 (0.282497% change)
+    iteration   20: trace = 0.1917631688268433 (0.00200708% change)
+    iteration   27: trace = 0.1917606685932127 (1.14269e-05% change)
+Finished solving for bands 1 to 2 after 28 iterations.
+zevenfreqs:, 1, 0.4, 0, 0, 0.4, 0.249793, 0.359672
+elapsed time for k point: 19 seconds.
+solve_kpoint (0.5,0,0):
+Solving for bands 1 to 2...
+    iteration    6: trace = 0.1909659888029296 (0.00076156% change)
+Finished solving for bands 1 to 2 after 10 iterations.
+zevenfreqs:, 2, 0.5, 0, 0, 0.5, 0.259358, 0.351709
+elapsed time for k point: 7 seconds.
+Band 1 range: 0.24979304421855078 at #(0.4 0.0 0.0) to 0.2593575006885193 at #(0.5 0.0 0.0)
+Band 2 range: 0.3517086679060487 at #(0.5 0.0 0.0) to 0.35967219100914427 at #(0.4 0.0 0.0)
+Gap from band 1 (0.2593575006885193) to band 2 (0.3517086679060487), 30.226241269397725%
+total elapsed time for run: 31 seconds.
+done.
+gap: 30.22624126939773
+gap-1: 1594.6547189333414
+gap-2: 1175.9325262753691
+
+
+init-params: initializing eigensolver data
+Computing 2 bands with 1.000000e-07 tolerance.
+Working in 3 dimensions.
+Grid size is 32 x 288 x 288.
+Solving for 2 bands at a time.
+Creating Maxwell data...
+Mesh size is 7.
+Lattice vectors:
+     (1, 0, 0)
+     (0, 9, 0)
+     (0, 0, 9)
+Cell volume = 81
+Reciprocal lattice vectors (/ 2 pi):
+     (1, -0, 0)
+     (-0, 0.111111, -0)
+     (0, -0, 0.111111)
+Geometric objects:
+     block, center = (0,0,0)
+          size (1,1.07492,0.5029)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 12, mu = 1
+     ellipsoid, center = (0,0,0)
+          size (0.5917,0.6291,30)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 1, mu = 1
+Geometric object tree has depth 3 and 8 object nodes (vs. 2 actual objects)
+Initializing epsilon function...
+2 k-points:
+     (0.4,0,0)
+     (0.5,0,0)
+Solving for band polarization: zeven.
+Initializing fields to random numbers...
+elapsed time for initialization: 0 seconds.
+epsilon: 1-12, mean 1.05348, harm. mean 1.00492, 0.553574% > 1, 0.486147% "fill"
+Outputting c-e470-epsilon...
+solve_kpoint (0.4,0,0):
+zevenfreqs:, k index, k1, k2, k3, kmag/2pi, zeven band 1, zeven band 2
+Solving for bands 1 to 2...
+    iteration    6: trace = 0.2258636567080171 (3.97757% change)
+    iteration   13: trace = 0.2083999043855284 (0.883553% change)
+    iteration   20: trace = 0.2027995323014816 (0.031742% change)
+    iteration   27: trace = 0.2027424835967368 (0.000145822% change)
+Finished solving for bands 1 to 2 after 32 iterations.
+zevenfreqs:, 1, 0.4, 0, 0, 0.4, 0.258953, 0.368355
+elapsed time for k point: 21 seconds.
+solve_kpoint (0.5,0,0):
+Solving for bands 1 to 2...
+    iteration    6: trace = 0.2019478346367986 (0.00078211% change)
+Finished solving for bands 1 to 2 after 9 iterations.
+zevenfreqs:, 2, 0.5, 0, 0, 0.5, 0.268444, 0.360396
+elapsed time for k point: 7 seconds.
+Band 1 range: 0.258952660790425 at #(0.4 0.0 0.0) to 0.26844354296089884 at #(0.5 0.0 0.0)
+Band 2 range: 0.36039589435008407 at #(0.5 0.0 0.0) to 0.36835533069631854 at #(0.4 0.0 0.0)
+Gap from band 1 (0.26844354296089884) to band 2 (0.36039589435008407), 29.245096898625842%
+total elapsed time for run: 33 seconds.
+done.
+gap: 29.24509689862584
+gap-1: 1629.6265181893193
+gap-2: 1213.8393447424478
+
+
