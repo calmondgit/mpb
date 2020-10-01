@@ -1,9 +1,0 @@
-Unloaded module: gcc/9.1.0
-Unloaded module: binutils/2.29
-Unloaded module: latex/TeXLive19
-DCC-SW: From 30th of September we will bump the default software stack
-DCC-SW: To continue using this software stack, please explicitly do this
-DCC-SW:    module load 2019-jun-dcc-setup
-DCC-SW: Added modules (2019-jun/XeonE5-2683v4)
-DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
-DCC-SW: Using gnu/9.1.0 compiler
